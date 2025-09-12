@@ -12,11 +12,11 @@
         <h1 class="Title">The Cameo Box</h1>
     
         <Ul class="NavbarElements">
-            <li><a href="Contact_page/Contact.html">Contact us</a></li>
+            <li><a href="index.html"class="active">Home</a></li>                 
             <li><a href="Policies_page/policies.html">Policies</a></li>
             <li><a href="Pricing_page/pricing.html">Pricing</a></li>  
-            <li><a href="">Portfolio</a></li>                 
             <li><a href="FAQ_page/FAQ.html">FAQ</a></li>
+            <li><a href="Contact_page/Contact.html">Contact us</a></li>
         </Ul>
     </Nav>
 
@@ -36,14 +36,15 @@
 
     <section class="section_two">
 
-       <form action="" class="TheForm">
-            <input type="text" size="35" id="Name" name="Name" placeholder="Name...">
+       <form method="POST" action="http://127.0.0.1:8000/contact/" class="TheForm">
+        
+            <input type="text" size="35" id="name" name="name" placeholder="Name..." required>
 
-            <input type="text" size="35" id="Email" name="Email" placeholder="Email...">
+            <input type="text" size="35" id="email" name="email" placeholder="Email..." required>
             
-            <input type="text" size="35" id="Phone" name="Phone" placeholder="Phone...">
+            <input type="text" size="35" id="phone" name="phone" placeholder="Phone...">
 
-            <textarea size="35" placeholder="Message..."> </textarea>
+            <textarea size="35" name="message" placeholder="Message..."> </textarea>
 
             <Input class="Submit" type="submit" value="submit">
         </form>
