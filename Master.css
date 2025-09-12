@@ -78,3 +78,16 @@ body{
     padding: 0;
     margin: 0;
 }
+
+nav a.active{
+    color: var(--title-color);
+}
+
+.Title a{
+    font-family: 'Soria';
+    font-size: 4rem;
+    color: var(--title-color);
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
