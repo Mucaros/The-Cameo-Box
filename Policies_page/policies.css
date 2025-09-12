@@ -1,0 +1,69 @@
+:root{
+    --background-color: #FFDEA1;
+    --title-color: #fbad18;
+    --text-color: #f26e63;
+    --highlight-color: #789287;
+    --navigation-BG-color: #A05D7F;
+    --navbar-text: #DEDCD6;
+    --paragraph-color: #5C513A;
+}
+
+.section_one{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 10% 5% 10%;
+}
+
+p::first-letter{
+    font-size: 400%;
+}
+
+p{
+    width: 40%;
+    font-size: larger;
+    line-height: 2rem;
+    letter-spacing: 0.5px;
+}
+
+.section_two{
+    display: flex;
+    justify-content: space-between;
+    margin: 10% 10% 5% 10%;
+}
+
+.Title a{
+    font-family: 'Soria';
+    font-size: 4rem;
+    color: var(--title-color);
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+img{
+    width: 30%;
+    height: 30%;
+    margin: 5%;
+}
+
+.FAQ_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.FAQ_list li{
+    color: var(--paragraph-color);
+    margin: 1rem;
+    font-size: larger;
+    line-height: 2rem;
+    letter-spacing: 0.5px;
+}
+
+.subheader{
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+    color: var(--text-color);
+}

@@ -1,0 +1,80 @@
+:root{
+    --background-color: #FFDEA1;
+    --title-color: #fbad18;
+    --text-color: #f26e63;
+    --highlight-color: #789287;
+    --navigation-BG-color: #A05D7F;
+    --navbar-text: #DEDCD6;
+    --paragraph-color: #5C513A;
+}
+
+@font-face {
+    font-family: 'Soria';
+    src: url(Cameo\ Fonts/soria-font.woff);
+}
+
+p{
+    color: var(--paragraph-color);
+}
+
+body{
+    font-family: Helvetica, sans-serif, Arial;
+    background-color: var(--background-color);
+    margin: 0;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    background-color: var(--navigation-BG-color);
+}
+.NavbarElements a{
+    text-decoration: none;
+    color: var(--navbar-text);
+}
+
+.NavbarElements a:hover{
+    text-decoration: none;
+    color: var(--title-color);
+}
+
+.NavbarElements{
+    display: flex;
+    list-style-type: none;
+    color: var(--navbar-text);
+    font-size: large;
+    letter-spacing: 0.5px;
+}
+
+.NavbarElements li{
+    padding: 2rem;
+    color: var(--navbar-text);
+}
+
+.FooterBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+    background-color: var(--navigation-BG-color);
+}
+
+.FooterElements{
+    display: flex;
+    list-style-type: none;
+}
+
+.FooterElements li{
+    padding: 2rem;
+    color: var(--navbar-text);
+}
+
+.Title{
+    font-family: 'Soria';
+    font-size: 4rem;
+    color: var(--title-color);
+    padding: 0;
+    margin: 0;
+}
