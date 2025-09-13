@@ -28,7 +28,7 @@ def contact_form(request):
             subject=f"New Contact Submission from {name}",
             message=f"Name: {name}\nEmail: {email}\nPhone: {phone}\nMessage: {message}",
             from_email=settings.EMAIL_HOST_USER,
-            recipient_list=['your-email@example.com'],  # <- replace with your email
+            recipient_list=['thecameobox25@gmail.com'],  # <- replace with your email
         )
 
         return HttpResponse("Thanks for your message!")
