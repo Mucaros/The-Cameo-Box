@@ -127,4 +127,4 @@ EMAIL_HOST = ''
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'thecameobox25@gmail.com'         # <-- replace
-EMAIL_HOST_PASSWORD = 'hpkl zffb mhxc usbk'       # <-- use Gmail App Password
+EMAIL_HOST_PASSWORD = ''       # <-- use Gmail App Password
