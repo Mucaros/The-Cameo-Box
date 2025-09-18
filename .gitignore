@@ -1,0 +1,18 @@
+*
+# Ignore environment variables
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Database files (if using SQLite)
+db.sqlite3
+
+# Django stuff you usually don’t want in Git
+*.log
+*.pot
+*.py[cod]
+
+# OS files
+.DS_Store
