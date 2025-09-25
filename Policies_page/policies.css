@@ -8,6 +8,10 @@
     --paragraph-color: #5C513A;
 }
 
+.bold{
+    font-weight: bold;
+}
+
 .section_one{
     display: flex;
     justify-content: space-between;
@@ -43,7 +47,7 @@ p{
 img{
     width: 30%;
     height: 30%;
-    margin: 5%;
+    margin: 10%;
 }
 
 .FAQ_list{
