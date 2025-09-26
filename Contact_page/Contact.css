@@ -1,12 +1,4 @@
-:root{
-    --background-color: #FFDEA1;
-    --title-color: #fbad18;
-    --text-color: #f26e63;
-    --highlight-color: #789287;
-    --navigation-BG-color: #A05D7F;
-    --navbar-text: #DEDCD6;
-    --paragraph-color: #5C513A;
-}
+@import url(Master.css);
 
 .section_one{
     display: flex;
@@ -87,6 +79,7 @@ textarea{
     font-size: larger;
     line-height: 2rem;
     letter-spacing: 0.5px;
+    font-family: 'Semplicita';
 }
 
 .subheader{
@@ -96,3 +89,11 @@ textarea{
     color: var(--text-color);
 }
 
+.ParagraphPoints li{
+    width: 100%;
+    font-size: larger;
+    line-height: 2rem;
+    letter-spacing: 0.5px;
+    color: var(--paragraph-color);
+    font-family: 'Semplicita';
+}

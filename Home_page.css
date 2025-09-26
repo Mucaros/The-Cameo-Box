@@ -1,12 +1,4 @@
-:root{
-    --background-color: #FFDEA1;
-    --title-color: #fbad18;
-    --text-color: #f26e63;
-    --highlight-color: #789287;
-    --navigation-BG-color: #A05D7F;
-    --navbar-text: #DEDCD6;
-    --paragraph-color: #5C513A;
-}
+@import url(Master.css);
 
 .section_one{
     display: flex;
@@ -15,46 +7,23 @@
 }
 
 p{
-    width: 50%;
+    display: block;
+    margin: 5% auto;
+    width: 60%;
     font-size: larger;
     line-height: 2rem;
     letter-spacing: 0.5px;
+    text-align: center;
 }
 
 .section_two{
-    display: flex;
-    justify-content: space-between;
-    margin: 10% 10% 5% 10%;
+    margin: 10% 10% 5% 5%;
 }
 
 img{
     width: 30%;
     height: 30%;
-}
-
-.TheForm {
-  background-color: white;
-  width: 30rem;         
-  height: 30rem;        
-  padding: 2rem;       
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;   
-  margin-right: 10%; 
-}
-
-textarea {
-    width: 97%;
-    height: 30%;
-    max-width: 97%;
-    max-height: 30%;
-    padding: 1em;
-    border: 2px solid black;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
-    background-color: var(--navbar-text);
+    margin: 5%;
 }
 
 .TheForm input{
@@ -76,9 +45,17 @@ textarea{
 
 .FAQ_list{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 70%;
+    flex-direction: row; /* Stack vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically if there's extra space */
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Semplicita';
+}
+
+.FAQ_list ul{
+    width: 100%;
 }
 
 .FAQ_list li{
@@ -87,15 +64,40 @@ textarea{
     font-size: larger;
     line-height: 2rem;
     letter-spacing: 0.5px;
+    list-style-type: none;
+    text-align: center;
 }
 
 .subheader{
     font-size: 4rem;
     padding: 0;
-    margin: 0 0 0 5%;
+    text-align: center;
     color: var(--text-color);
+}
+
+.bold{
+    font-weight: bold;
 }
 
 .who{
     margin: 0;
+}
+
+.toContactPage{
+    margin: 0 auto;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--navbar-text);
+    background-color: var(--text-color);
+    border: none;
+    font-weight: bold;
+    display: block;
+    margin: 5% auto;
+    text-decoration: none;
+}
+
+.toContactPage a{
+    text-decoration: none;
+    color: var(--navbar-text);
+    font-family: 'Simplictica';
 }

@@ -1,12 +1,4 @@
-:root{
-    --background-color: #FFDEA1;
-    --title-color: #fbad18;
-    --text-color: #f26e63;
-    --highlight-color: #789287;
-    --navigation-BG-color: #A05D7F;
-    --navbar-text: #DEDCD6;
-    --paragraph-color: #5C513A;
-}
+@import url(Master.css);
 
 .section_one{
     display: flex;
@@ -45,28 +37,19 @@ img{
     height: 30%;
 }
 
-.FAQ_list{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-    height: 15rem;
+.card ul{
+    display: inline-block;
+    width: 15rem;
 }
 
-.FAQ_list ul{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 80%;
-}
-
-.FAQ_list li{
-    color: var(--paragraph-color);
+.card ul li{
+    color: var(--navbar-text);
     margin: 1rem;
     font-size: larger;
     line-height: 2rem;
     letter-spacing: 0.5px;
     list-style-type: none;
+    font-family: 'Semplicita';
 }
 
 .subheader{
@@ -82,6 +65,21 @@ img{
     font-weight: bold;
 }
 
-.FAQ_list ul li{
-    margin: 0;
+.card{
+    display: flex;           
+    flex-direction: column;   
+    align-items: center;     
+    justify-content: center;   
+    text-align: center; 
+    background-color: var(--highlight-color);
+    height: 8rem;
+    width: 5rem;
+    padding: 8rem;
+    border-radius: 1rem;
+    margin: 5%;
+}
+
+.card-holder{
+    display: flex;
+    flex-wrap: wrap;
 }

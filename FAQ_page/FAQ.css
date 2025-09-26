@@ -1,21 +1,9 @@
-:root{
-    --background-color: #FFDEA1;
-    --title-color: #fbad18;
-    --text-color: #f26e63;
-    --highlight-color: #789287;
-    --navigation-BG-color: #A05D7F;
-    --navbar-text: #DEDCD6;
-    --paragraph-color: #5C513A;
-}
+@import url(Master.css);
 
 .section_one{
     display: flex;
     justify-content: space-between;
     margin: 5% 10% 5% 10%;
-}
-
-p::first-letter{
-    font-size: 400%;
 }
 
 p{
@@ -31,15 +19,6 @@ p{
     margin: 10% 10% 5% 10%;
 }
 
-.Title a{
-    font-family: 'Soria';
-    font-size: 4rem;
-    color: var(--title-color);
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-}
-
 img{
     width: 30%;
     height: 30%;
@@ -47,6 +26,7 @@ img{
 
 .FAQ_list{
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     justify-content: space-between;
     width: 70%;
@@ -54,13 +34,17 @@ img{
 
 .FAQ_list li{
     color: var(--paragraph-color);
-    margin: 1rem;
+    margin: 2rem;
     font-size: larger;
     line-height: 2rem;
     letter-spacing: 0.5px;
+    font-family: 'Semplicita';
+    text-align: center;
+    list-style-type: none;
 }
 
 .subheader{
+    text-align: center;
     font-size: 4rem;
     padding: 0;
     margin: 0;
