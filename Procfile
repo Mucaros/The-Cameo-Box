@@ -1,1 +1,1 @@
-web: gunicorn Backend.cameo_backend.wsgi
+web: gunicorn cameo_backend.wsgi
