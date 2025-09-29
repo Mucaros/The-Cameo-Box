@@ -1,11 +1,5 @@
 @import url(Master.css);
 
-.section_one{
-    display: flex;
-    justify-content: space-between;
-    margin: 5% 10% 5% 10%;
-}
-
 p::first-letter{
     font-size: 400%;
 }
@@ -17,10 +11,10 @@ p{
     letter-spacing: 0.5px;
 }
 
-.section_two{
+.section{
     display: flex;
     justify-content: space-between;
-    margin: 10% 10% 5% 10%;
+    margin: 10% 15% 5% 15%;
 }
 
 .Title a{
@@ -32,24 +26,14 @@ p{
     text-decoration: none;
 }
 
-img{
-    width: 30%;
-    height: 30%;
-}
-
-.card ul{
-    display: inline-block;
-    width: 15rem;
-}
-
-.card ul li{
+.price-list li{
     color: var(--navbar-text);
-    margin: 1rem;
-    font-size: larger;
+    margin: 5rem 0 5rem 0;
+    font-size: 3rem;
     line-height: 2rem;
     letter-spacing: 0.5px;
     list-style-type: none;
-    font-family: 'Semplicita';
+    color: var(--paragraph-color);
 }
 
 .subheader{
@@ -59,27 +43,34 @@ img{
     color: var(--text-color);
 }
 
-.nested-list-title{
+ul .nested-list-title{
     margin-bottom: 0;
     padding: 0;
     font-weight: bold;
+    color: var(--text-color);
+    font-size: 10rem;
+    margin: 2rem 0rem 2rem 0
 }
 
-.card{
-    display: flex;           
-    flex-direction: column;   
-    align-items: center;     
-    justify-content: center;   
-    text-align: center; 
-    background-color: var(--highlight-color);
-    height: 8rem;
-    width: 5rem;
-    padding: 8rem;
-    border-radius: 1rem;
-    margin: 5%;
-}
-
-.card-holder{
+.number-box{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center; /* Horizontal center */
+    align-items: center;  
+    height: 30rem;
+    width: 22.5rem;
+    background-color: var(--navigation-BG-color);
+    margin: 0;
+    padding: 0;
+    border-radius: 3rem;
+}
+
+.number-box p{
+    position: relative;
+    top: 5rem;
+    right: 3rem;
+    font-size: 8rem;
+    font-family: 'Soria';
+    color: var(--title-color);
+    margin: 0;
+    padding: 0;
 }

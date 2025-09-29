@@ -14,13 +14,27 @@ html {
 
 @font-face {
     font-family: 'Soria';
-    src: url(Cameo\ Fonts/soria-font.woff);
+    src: url(Cameo\ Fonts/soria-font.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'SemplicitaMedium';
+    src: url(Cameo\ Fonts/semplicita.medium.otf) format('opentype');
 }
 
 @font-face {
     font-family: 'Semplicita';
-    src: url(Cameo\ Fonts/SemplicitaMedium.woff);
+    src: url(Cameo\ Fonts/semplicita.light.otf) format('opentype');
 }
+
+button{
+    font-family: 'Semplicita';
+}
+
+ul li{ 
+    font-family: 'Semplicita';
+}
+
 
 p{
     color: var(--paragraph-color);
@@ -43,6 +57,7 @@ body{
 .NavbarElements a{
     text-decoration: none;
     color: var(--navbar-text);
+    font-family: 'SimplicitaMeidum';
 }
 
 .NavbarElements a:hover{
@@ -100,10 +115,6 @@ nav a.active{
     padding: 0;
     margin: 0;
     text-decoration: none;
-}
-
-ul li{
-    font-family: 'Simplictica';
 }
 
 .highlight{
