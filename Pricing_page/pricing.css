@@ -1,9 +1,5 @@
 @import url(Master.css);
 
-p::first-letter{
-    font-size: 400%;
-}
-
 p{
     width: 40%;
     font-size: larger;
@@ -14,33 +10,17 @@ p{
 .section{
     display: flex;
     justify-content: space-between;
-    margin: 10% 15% 5% 15%;
-}
-
-.Title a{
-    font-family: 'Soria';
-    font-size: 4rem;
-    color: var(--title-color);
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
+    margin: 10% 3% 10% 3%;
 }
 
 .price-list li{
     color: var(--navbar-text);
     margin: 5rem 0 5rem 0;
-    font-size: 3rem;
-    line-height: 2rem;
+    font-size: 1.5rem;
+    line-height: 1rem;
     letter-spacing: 0.5px;
     list-style-type: none;
     color: var(--paragraph-color);
-}
-
-.subheader{
-    font-size: 4rem;
-    padding: 0;
-    margin: 0;
-    color: var(--text-color);
 }
 
 ul .nested-list-title{
@@ -48,29 +28,20 @@ ul .nested-list-title{
     padding: 0;
     font-weight: bold;
     color: var(--text-color);
-    font-size: 10rem;
-    margin: 2rem 0rem 2rem 0
+    font-size: 2.5rem;
+    margin: 1rem 0rem 1rem 0
 }
 
-.number-box{
+.big-div{
     display: flex;
-    justify-content: center; /* Horizontal center */
-    align-items: center;  
-    height: 30rem;
-    width: 22.5rem;
-    background-color: var(--navigation-BG-color);
-    margin: 0;
-    padding: 0;
-    border-radius: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.number-box p{
-    position: relative;
-    top: 5rem;
-    right: 3rem;
-    font-size: 8rem;
-    font-family: 'Soria';
-    color: var(--title-color);
-    margin: 0;
-    padding: 0;
+@media(max-width: 600px){
+    .section{
+        display: flex;
+        justify-content: space-between;
+        margin: 5% 10% 5% 10%;
+    }
 }

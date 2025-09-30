@@ -10,7 +10,8 @@ __pycache__/
 db.sqlite3
 
 # Django stuff you usually don’t want in Git
-*.log
+node_modules/
+dist/
 *.pot
 *.py[cod]
 

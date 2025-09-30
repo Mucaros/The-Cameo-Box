@@ -102,3 +102,17 @@ textarea{
     text-decoration: none;
     color: var(--navbar-text);
 }
+
+@media(max-width: 600px){
+    .FAQ_list{flex-direction: column;}
+    
+    .section_one{
+        margin: 5% 5% 5% 5%;
+    }
+    .section_two{
+        margin: 5% 5% 5% 5%;
+    }
+    .toContactPage{
+        margin-bottom: 3rem;
+    }
+}

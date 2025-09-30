@@ -10,10 +10,6 @@
     margin: 5% 10% 5% 10%;
 }
 
-p::first-letter{
-    font-size: 400%;
-}
-
 p{
     width: 60%;
     font-size: larger;
@@ -27,11 +23,6 @@ p{
     margin: 10% 10% 5% 10%;
 }
 
-img{
-    width: 30%;
-    height: 30%;
-    margin: 10%;
-}
 
 .FAQ_list{
     margin: 0 auto;
@@ -58,4 +49,10 @@ img{
     padding: 0;
     margin: 0;
     color: var(--text-color);
+}
+
+@media(max-width: 600px){
+    .FAQ_list{
+        width: 100%;
+    }
 }

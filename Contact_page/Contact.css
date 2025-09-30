@@ -97,4 +97,37 @@ textarea{
     letter-spacing: 0.5px;
     color: var(--paragraph-color);
     font-family: 'Semplicita';
+    list-style-type: none;
+}
+
+@media(max-width: 600px){
+    .section_one{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+    .side-text{
+        margin: 1rem;
+    }
+    .TheForm {
+        width: 20rem;         
+        height: 20rem;  
+    } 
+    .TheForm input{
+        margin-bottom: 1rem;
+        font-size: 1em;
+        padding: 1em;
+        background-color: var(--navbar-text);
+    }
+
+    textarea {
+        width: 97%;
+        height: 7rem;
+        max-width: 97%;
+        max-height: 100%;
+        padding: 2rem;
+        margin-bottom: 0.5rem;
+        box-sizing: border-box;
+        background-color: var(--navbar-text);
+    }
+
 }

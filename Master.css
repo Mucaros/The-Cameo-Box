@@ -35,6 +35,10 @@ ul li{
     font-family: 'Semplicita';
 }
 
+ul{
+    padding-inline-start: 0;
+}
+
 
 p{
     color: var(--paragraph-color);
@@ -89,6 +93,7 @@ body{
 .FooterElements{
     display: flex;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
 .FooterElements li{
@@ -120,4 +125,65 @@ nav a.active{
 .highlight{
     color: var(--highlight-color);
     font-weight: bold;
+}
+
+.navButton{
+    display: none;
+    padding: 1rem;
+    font-size: 2rem;
+    color: var(--title-color);
+}
+
+.Title.active{
+        visibility: hidden;
+    }
+
+.NavbarElements.active{
+        display: flex;
+        opacity: 1;
+        pointer-events: auto;
+        }
+
+@media (max-width: 600px){
+
+    .Navbar{flex-direction: row;}
+    .Title{font-size: 3rem; margin: 2rem 0 2rem 0;}
+    .Title a{font-size: 3rem; margin: 2rem 0 2rem 0;}
+
+    img{display: none;}
+
+    .NavbarElements{
+        display: none;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+
+        background-color: #111; /* Dark background */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        gap: 2rem;
+        font-size: 2rem;
+
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.3s ease;
+    }
+    .navButton{
+        display: block;
+        z-index: 2;
+    }
+    .FooterElements li{
+        display: flex;
+        list-style-type: none;
+        flex-wrap: wrap;
+        padding: 0.5rem;
+    }
+    .FAQ_list{width: 100%;}
+
 }
