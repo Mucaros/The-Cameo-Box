@@ -14,17 +14,17 @@ html {
 
 @font-face {
     font-family: 'Soria';
-    src: url(Cameo\ Fonts/soria-font.woff) format('woff');
+    src: url('Cameo Fonts/soria-font.woff') format('woff');
 }
 
 @font-face {
     font-family: 'SemplicitaMedium';
-    src: url(Cameo\ Fonts/semplicita.medium.otf) format('opentype');
+    src: url('Cameo Fonts/semplicita.medium.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'Semplicita';
-    src: url(Cameo\ Fonts/semplicita.light.otf) format('opentype');
+    src: url('Cameo Fonts/semplicita.light.otf') format('opentype');
 }
 
 button{
