@@ -44,4 +44,7 @@ ul .nested-list-title{
         justify-content: space-between;
         margin: 5% 10% 5% 10%;
     }
+    .price-list li{
+        text-align: center;
+    }
 }

@@ -25,6 +25,7 @@ img{
     width: 30%;
     height: 30%;
     margin: 5%;
+    box-shadow: 1rem 1rem black;
 }
 
 .TheForm input{
@@ -84,23 +85,24 @@ textarea{
     margin: 0;
 }
 
-.toContactPage{
-    margin: 0 auto;
-    padding: 1.5rem;
+.button{
     font-size: 1.5rem;
     color: var(--navbar-text);
     background-color: var(--text-color);
     border: none;
     font-weight: bold;
     display: block;
+    max-width: fit-content;
     margin: 5% auto;
     text-decoration: none;
-    box-shadow: 0.5rem 0.5rem black
+    box-shadow: 0.5rem 0.5rem black;
+    padding: 1rem;
+    transition: 0.1s ease-in-out;
 }
 
-.toContactPage a{
-    text-decoration: none;
-    color: var(--navbar-text);
+.button:hover{
+    background-color: var(--highlight-color);
+    font-size: 1.7rem;
 }
 
 @media(max-width: 600px){
@@ -114,5 +116,8 @@ textarea{
     }
     .toContactPage{
         margin-bottom: 3rem;
+    }
+    p{
+        width: 90%;
     }
 }

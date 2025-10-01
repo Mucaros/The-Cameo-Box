@@ -1,34 +1,27 @@
 @import url(Master.css);
 
-.section_one{
+.section{
     display: flex;
     justify-content: space-between;
-    margin: 5% 20% 5% 10%;
+    margin: 5% 10% 5% 10%;
+}
+
+.side-text{
+    max-width: 90%;
+    margin: 1rem;
 }
 
 p{
-    width: 100%;
     font-size: larger;
     line-height: 2rem;
     letter-spacing: 0.5px;
     font-family: 'Semplicita';
 }
 
-.section_two{
-    display: flex;
-    justify-content: space-between;
-    margin: 10% 10% 5% 10%;
-}
-
-img{
-    width: 30%;
-    height: 30%;
-}
-
 .TheForm {
   background-color: white;
-  width: 30rem;         
-  height: 30rem;        
+  width: 100%;         
+  height: 50%;        
   padding: 2rem;       
 
   display: flex;
@@ -51,20 +44,23 @@ textarea {
 }
 
 .TheForm input{
-    margin-bottom: 1rem;
+    margin-bottom: 5%;
     font-size: 1.5rem;
-    padding: 1rem;
+    padding: 3%;
     background-color: var(--navbar-text);
 }
 
-textarea{
-    border: 1px black;
-}
-
 .Submit{
+    width: fit-content;
     background-color: white;
     box-shadow: 5px 5px black;
     cursor: pointer;
+    transition: 0.1s ease-in-out; 
+}
+
+.Submit:hover{
+    background-color: var(--text-color);
+    font-size: 1.8rem;
 }
 
 .FAQ_list{
@@ -101,33 +97,28 @@ textarea{
 }
 
 @media(max-width: 600px){
-    .section_one{
+    .section{
         flex-wrap: wrap;
         flex-direction: column-reverse;
     }
     .side-text{
-        margin: 1rem;
+        margin: 2rem;
+        word-wrap: break-word;
+    }
+   
+    .Submit:hover{
+        background-color: var(--text-color);
+        font-size: 1rem;
+    }
+    .TheForm input{
+        margin-bottom: 5%;
+        font-size: 1.5rem;
+        padding: 3%;
+        background-color: var(--navbar-text);
+        width: 90%;
     }
     .TheForm {
-        width: 20rem;         
-        height: 20rem;  
-    } 
-    .TheForm input{
-        margin-bottom: 1rem;
-        font-size: 1em;
-        padding: 1em;
-        background-color: var(--navbar-text);
+        background-color: white;
+        width: 70%; 
     }
-
-    textarea {
-        width: 97%;
-        height: 7rem;
-        max-width: 97%;
-        max-height: 100%;
-        padding: 2rem;
-        margin-bottom: 0.5rem;
-        box-sizing: border-box;
-        background-color: var(--navbar-text);
-    }
-
 }
