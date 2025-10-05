@@ -1,38 +1,40 @@
 @import url(Master.css);
 
-.bold{
-    font-weight: bold;
-}
-
-.section_one{
+.section{
     display: flex;
     justify-content: space-between;
     margin: 5% 10% 5% 10%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.Info-text{
+    margin: 1rem;
+    text-align: center;
 }
 
 p{
-    width: 60%;
+    width: 40%;
     font-size: larger;
     line-height: 2rem;
     letter-spacing: 0.5px;
 }
 
-.section_two{
-    display: flex;
-    justify-content: space-between;
-    margin: 10% 10% 5% 10%;
+img{
+    width: 30%;
+    height: 30%;
 }
 
-
-.FAQ_list{
-    margin: 0 auto;
+.Values{
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
     justify-content: space-between;
     width: 70%;
 }
 
-.FAQ_list li{
+.Values li{
     color: var(--paragraph-color);
     margin: 2rem;
     font-size: larger;
@@ -49,21 +51,4 @@ p{
     padding: 0;
     margin: 0;
     color: var(--text-color);
-}
-
-.fine-print{
-    text-align: center;
-}
-
-.section_three{
-    display: flex;
-    justify-content: space-between;
-    margin: 10% 10% 5% 10%;
-    justify-content: center;
-}
-
-@media(max-width: 600px){
-    .FAQ_list{
-        width: 100%;
-    }
 }

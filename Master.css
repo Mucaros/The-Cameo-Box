@@ -2,8 +2,8 @@
     --background-color: #FFDEA1;
     --title-color: #fbad18;
     --text-color: #f26e63;
-    --highlight-color: #789287;
-    --navigation-BG-color: #789287;
+    --highlight-color: #f26e63;
+    --navigation-BG-color: #5c513a;
     --navbar-text: #DEDCD6;
     --paragraph-color: #5C513A;
 }
@@ -14,7 +14,7 @@ html {
 
 @font-face {
     font-family: 'Soria';
-    src: url('Cameo Fonts/soria-font.woff') format('woff');
+    src: url('Cameo Fonts/soria-font.otf') format('opentype');
 }
 
 @font-face {
@@ -162,7 +162,7 @@ nav a.active{
         width: 100vw;
         height: 100vh;
 
-        background-color: #111; /* Dark background */
+        background-color: var(--navigation-BG-color); /* Dark background */
         display: flex;
         flex-direction: column;
         justify-content: center;
