@@ -10,13 +10,13 @@
 }
 
 img{
-    width: 20rem;
-    height: 30rem;
-    margin: 5% 5% 5% 12%;
+    width: 40%;
+    height: 50%;
+    margin: 5% 5% 5% 5%;
     box-shadow: 1rem 1rem black;
 }
 
-.Info-text{
+.info-text{
     width: 40%;
     font-size: larger;
     line-height: 2rem;
