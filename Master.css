@@ -49,6 +49,7 @@ body{
     font-family: 'Semplicita', Helvetica, sans-serif, Arial;
     background-color: var(--background-color);
     margin: 0;
+    height: 100%;
 }
 
 .Navbar{

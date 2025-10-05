@@ -19,6 +19,8 @@ p{
     font-size: larger;
     line-height: 2rem;
     letter-spacing: 0.5px;
+    margin: 0;
+    padding: 0;
 }
 
 img{
@@ -51,4 +53,20 @@ img{
     padding: 0;
     margin: 0;
     color: var(--text-color);
+}
+
+@media (max-width: 600px){
+    .section{
+        display: flex;
+        margin: 5% 10% 5% 5%;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .Values{
+        width: 100%;
+    }
+    .Info-text{
+        width: 100%;
+    }
 }
