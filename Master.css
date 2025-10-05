@@ -148,8 +148,8 @@ nav a.active{
 @media (max-width: 600px){
 
     .Navbar{flex-direction: row;}
-    .Title{font-size: 3rem; margin: 2rem 0 2rem 0;}
-    .Title a{font-size: 3rem; margin: 2rem 0 2rem 0;}
+    .Title{font-size: 2rem; margin: 1rem 0 1rem 0;}
+    .Title a{font-size: 2rem; margin: 1rem 0 1rem 0;}
 
     img{display: none;}
 
