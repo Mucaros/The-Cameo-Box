@@ -59,10 +59,28 @@ body{
     padding: 0 2rem 0 2rem;
     background-color: var(--navigation-BG-color);
 }
-.NavbarElements a{
+
+.link a{
+    text-decoration: none;
+    color: var(--highlight-color);
+    font-family: 'SemplicitaMedium';
+    list-style-type: none;
+    font-size: larger;
+}
+
+.link{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.link a:hover{
+    font-weight: bold;
+}
+
+.NavbarElements a {
     text-decoration: none;
     color: var(--navbar-text);
-    font-family: 'SimplicitaMeidum';
+    font-family: 'SemplicitaMedium';
 }
 
 .NavbarElements a:hover{
@@ -137,14 +155,23 @@ nav a.active{
 }
 
 .Title.active{
-        visibility: hidden;
-    }
+    visibility: hidden;
+}
 
 .NavbarElements.active{
-        display: flex;
-        opacity: 1;
-        pointer-events: auto;
-        }
+    display: flex;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
+.subheader{
+    text-align: center;
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+    color: var(--text-color);
+}
 
 @media (max-width: 600px){
 
